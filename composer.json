@@ -9,7 +9,9 @@
 			"email": "info@sandbox.co.th"
 		}
 	],
-	"require": {},
+	"require": {
+		"php": "^8.0"
+	},
 	"autoload": {
 		"psr-4": {
 			"SandboxDev\\DBEncryption\\": "src"
