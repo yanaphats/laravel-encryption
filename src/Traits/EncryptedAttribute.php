@@ -16,7 +16,7 @@ trait EncryptedAttribute
 	 */
 	public function isEncryption($key)
 	{
-		if (self::$enableEncryption && env('APP_ENCRIPTION', false)) {
+		if (self::$enableEncryption && env('APP_ENCRYPTION', false)) {
 			return in_array($key, $this->encryption);
 		}
 		return false;
