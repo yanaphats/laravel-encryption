@@ -1,0 +1,20 @@
+# VSCode
+.vscode
+/.vscode
+
+# Cache files
+.DS_Store
+.DS_Store.moved
+*.~*~
+*.cache
+sitemap.xml
+
+# Thumbnails
+._*
+Thumbs.db
+
+# Logs
+*.log
+
+# Vendor
+/vendor
