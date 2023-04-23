@@ -8,7 +8,7 @@ use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\Facades\DB;
 
-class DecryptModel extends Command
+class EncryptModel extends Command
 {
 	/**
 	 * The name and signature of the console command.
