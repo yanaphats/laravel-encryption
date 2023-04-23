@@ -42,8 +42,13 @@ Add the service provider to the providers array in the config/app.php config fil
 
 ## Usage
 
+Allow to use encryption on your application by adding the `APP_ENCRYPTION` key on your `.env` file
+```dotenv
+	APP_ENCRYPTION=true
+```
+
 Use the `EncryptedAttribute` trait in any Eloquent model that you wish to apply encryption
-to and define a `protected $encrypted` array containing a list of the attributes to encrypt.
+to and define a `protected $encryption` array containing a list of the attributes to encrypt.
 
 For example:
 
