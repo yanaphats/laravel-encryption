@@ -54,7 +54,7 @@ class DBEncryptionServiceProvider extends ServiceProvider
 
 			$ignore_id = isset($parameters[2]) ? $parameters[2] : '';
 
-			$data = DB::table($parameters[0])->whereRaw("CONVERT(AES_DECRYPT(FROM_bASE64(`{$parameters[1]}`), '{$encryptKey}') USING utf8mb4) = '{$value}' ");
+			$data = DB::table($parameters[0])->whereRaw("CONVERT(AES_DECRYPT(FROM_BASE64(`{$parameters[1]}`), '{$encryptKey}') USING utf8mb4) = '{$value}' ");
 			$data = $ignore_id != '' ? $data->where('id', '!=', $ignore_id) : $data;
 
 			if ($withFilter) {
@@ -80,7 +80,7 @@ class DBEncryptionServiceProvider extends ServiceProvider
 				$ignore_id = isset($parameters[4]) ? $parameters[4] : '';
 			}
 
-			$data = DB::table($parameters[0])->whereRaw("CONVERT(AES_DECRYPT(FROM_bASE64(`{$parameters[1]}`), '{$encryptKey}') USING utf8mb4) = '{$value}' ");
+			$data = DB::table($parameters[0])->whereRaw("CONVERT(AES_DECRYPT(FROM_BASE64(`{$parameters[1]}`), '{$encryptKey}') USING utf8mb4) = '{$value}' ");
 			$data = $ignore_id != '' ? $data->where('id', '!=', $ignore_id) : $data;
 
 			if ($withFilter) {
