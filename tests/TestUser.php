@@ -1,10 +1,10 @@
 <?php
 
-namespace SandboxDev\DBEncryption\Tests;
+namespace Sandbox\DBEncryption\Tests;
 
 use Illuminate\Database\Eloquent\Model;
-use SandboxDev\DBEncryption\Traits\EncryptedAttribute;
-use SandboxDev\DBEncryption\Tests\Database\Factories\TestUserFactory;
+use Sandbox\DBEncryption\Traits\EncryptedAttribute;
+use Sandbox\DBEncryption\Tests\Database\Factories\TestUserFactory;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 

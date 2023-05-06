@@ -1,5 +1,5 @@
 {
-	"name": "sandbox-dev/laravel-database-encryption",
+	"name": "sandbox/laravel-encryption",
 	"description": "Auto Encrypt and Decrypt Database through Eloquent",
 	"type": "library",
 	"license": "MIT",
@@ -14,13 +14,13 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"SandboxDev\\DBEncryption\\": "src"
+			"Sandbox\\DBEncryption\\": "src"
 		}
 	},
 	"autoload-dev": {
 		"psr-4": {
-			"SandboxDev\\DBEncryption\\Tests\\": "tests",
-			"SandboxDev\\DBEncryption\\Tests\\Database\\Factories\\": "tests/database/factories"
+			"Sandbox\\DBEncryption\\Tests\\": "tests",
+			"Sandbox\\DBEncryption\\Tests\\Database\\Factories\\": "tests/database/factories"
 		}
 	},
 	"require-dev": {
@@ -30,7 +30,7 @@
 	"extra": {
 		"laravel": {
 			"providers": [
-				"SandboxDev\\DBEncryption\\Providers\\DBEncryptionServiceProvider"
+				"Sandbox\\DBEncryption\\Providers\\DBEncryptionServiceProvider"
 			]
 		}
 	},

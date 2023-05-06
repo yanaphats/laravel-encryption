@@ -1,6 +1,6 @@
 <?php
 
-namespace SandboxDev\DBEncryption;
+namespace Sandbox\DBEncryption;
 
 class Encryption
 {

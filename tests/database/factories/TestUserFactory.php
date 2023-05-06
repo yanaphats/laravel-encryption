@@ -1,8 +1,8 @@
 <?php
-namespace SandboxDev\DBEncryption\Tests\Database\Factories;
+namespace Sandbox\DBEncryption\Tests\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use SandboxDev\DBEncryption\Tests\TestUser;
+use Sandbox\DBEncryption\Tests\TestUser;
 
 class TestUserFactory extends Factory
 {

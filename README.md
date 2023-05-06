@@ -36,7 +36,7 @@ $ composer require sandbox-dev/laravel-database-encryption
 Add the service provider to the providers array in the config/app.php config file as follows:
 ```php
     'providers' => [
-        SandboxDev\DBEncryption\Providers\DBEncryptionServiceProvider::class,
+        Sandbox\DBEncryption\Providers\DBEncryptionServiceProvider::class,
     ],
 ```
 
@@ -54,7 +54,7 @@ For example:
 
 ```php
     
-    use SandboxDev\DBEncryption\Traits\EncryptedAttribute;
+    use Sandbox\DBEncryption\Traits\EncryptedAttribute;
 
     class User extends Eloquent {
         use EncryptedAttribute;

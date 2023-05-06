@@ -1,6 +1,6 @@
 <?php
 
-namespace SandboxDev\DBEncryption\Builders;
+namespace Sandbox\DBEncryption\Builders;
 
 use Illuminate\Database\Eloquent\Builder;
 

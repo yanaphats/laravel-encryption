@@ -1,8 +1,8 @@
 <?php
 
-namespace SandboxDev\DBEncryption\Tests;
+namespace Sandbox\DBEncryption\Tests;
 
-use SandboxDev\DBEncryption\Providers\DBEncryptionServiceProvider;
+use Sandbox\DBEncryption\Providers\DBEncryptionServiceProvider;
 
 class TestCase extends \Orchestra\Testbench\TestCase
 {

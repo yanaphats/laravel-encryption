@@ -1,6 +1,6 @@
 <?php
 
-namespace SandboxDev\DBEncryption\Tests;
+namespace Sandbox\DBEncryption\Tests;
 
 use Illuminate\Support\Facades\DB;
 use Illuminate\Foundation\Testing\RefreshDatabase;

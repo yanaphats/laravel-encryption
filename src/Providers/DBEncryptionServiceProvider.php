@@ -1,13 +1,13 @@
 <?php
 
-namespace SandboxDev\DBEncryption\Providers;
+namespace Sandbox\DBEncryption\Providers;
 
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\ServiceProvider;
 
-use SandboxDev\DBEncryption\Console\Commands\EncryptModel;
-use SandboxDev\DBEncryption\Console\Commands\DecryptModel;
+use Sandbox\DBEncryption\Console\Commands\EncryptModel;
+use Sandbox\DBEncryption\Console\Commands\DecryptModel;
 
 class DBEncryptionServiceProvider extends ServiceProvider
 {

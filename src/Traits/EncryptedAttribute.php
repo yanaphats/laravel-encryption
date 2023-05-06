@@ -1,9 +1,9 @@
 <?php
 
-namespace SandboxDev\DBEncryption\Traits;
+namespace Sandbox\DBEncryption\Traits;
 
-use SandboxDev\DBEncryption\Builders\EncryptionEloquentBuilder;
-use SandboxDev\DBEncryption\Encryption;
+use Sandbox\DBEncryption\Builders\EncryptionEloquentBuilder;
+use Sandbox\DBEncryption\Encryption;
 
 trait EncryptedAttribute
 {

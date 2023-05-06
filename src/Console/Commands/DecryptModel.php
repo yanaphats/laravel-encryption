@@ -1,6 +1,6 @@
 <?php
 
-namespace SandboxDev\DBEncryption\Console\Commands;
+namespace Sandbox\DBEncryption\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Database\Eloquent\Model;
