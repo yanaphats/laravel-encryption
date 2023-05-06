@@ -1,6 +1,6 @@
 <?php
 
-use SandboxDev\DBEncryption\Encryption;
+use Sandbox\DBEncryption\Encryption;
 
 if (!function_exists('isEncryption')) {
 	/**

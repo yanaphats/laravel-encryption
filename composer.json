@@ -1,11 +1,11 @@
 {
 	"name": "sandbox-dev/laravel-encryption",
-	"description": "Auto Encrypt and Decrypt Database through Eloquent",
+	"description": "Laravel DB encryption package",
 	"type": "library",
 	"license": "MIT",
 	"authors": [
 		{
-			"name": "Sandbox Dev"
+			"name": "Sandbox"
 		}
 	],
 	"require": {
