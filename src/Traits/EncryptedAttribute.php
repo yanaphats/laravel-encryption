@@ -30,9 +30,9 @@ trait EncryptedAttribute
 		return $this->encryption;
 	}
 
-	public function getAttribute($key)
+	public function getEncryptionAttribute($key)
 	{
-		$value = parent::getAttribute($key);
+		$value = parent::getEncryptionAttribute($key);
 		if ($this->isEncryption($key) && (!is_null($value) && $value != '')) {
 			try {
 				$value = Encryption::decrypt($value);
