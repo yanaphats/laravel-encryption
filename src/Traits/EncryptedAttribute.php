@@ -42,7 +42,7 @@ trait EncryptedAttribute
 		return $value;
 	}
 
-	public function setAttribute($key, $value)
+	public function setEncryptionAttribute($key, $value)
 	{
 		if ($this->isEncryption($key)) {
 			try {
@@ -50,7 +50,7 @@ trait EncryptedAttribute
 			} catch (\Exception $th) {
 			}
 		}
-		return parent::setAttribute($key, $value);
+		return parent::setEncryptionAttribute($key, $value);
 	}
 
 	public function attributesToArray()
