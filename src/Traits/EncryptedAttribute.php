@@ -53,9 +53,9 @@ trait EncryptedAttribute
 		return parent::setEncryptionAttribute($key, $value);
 	}
 
-	public function attributesToArray()
+	public function attributesEncryptionToArray()
 	{
-		$attributes = parent::attributesToArray();
+		$attributes = parent::attributesEncryptionToArray();
 		if ($attributes) {
 			foreach ($attributes as $key => $value) {
 				if ($this->isEncryption($key) && (!is_null($value)) && $value != '') {
